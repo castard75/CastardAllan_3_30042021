@@ -90,24 +90,13 @@ margin-top: 3rem;
 
 }
 
-.explore__btn:hover{
-background: linear-gradient(#9356DC ,#FF79DA );
+.explore__btn:hover {
+background: linear-gradient(#B587EC ,#F59DDD );
 margin-top: 3rem;
+box-shadow:2px 4px 8px 1px rgb(191, 191, 191);
 
 }
-.BUTTON_CPD:hover {
-   border: solid #337FED 1px;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
-}
+
 
 
 /* FONCTIONNEMENT*/
@@ -203,19 +192,40 @@ transition-duration: 0.1s;
 cursor: pointer;
 padding-bottom: 1rem;
 box-shadow: 0 0 16px #0000002e;
+position: relative;
 
 }
 
-.Restaurants__bloc__1:hover {
-    transform: scale(1.02);
-    transition-duration: 0.4s;}
+.Restaurants__bloc__carte__Ticket{
 
+padding: 0.5rem 1.5rem;
+color: #4f4e4e;
+position: absolute;
+right: 1.5rem;
+top: 3rem;
+background-color: #99E2D0;
+border-radius: 5px;
+box-shadow: 1px 1px 1px #0000002e;
+z-index: 2;
+}
+
+.image1 {
+
+
+}
 
 .Restaurants__bloc--img {
 width: 100%;
 height: 20rem;
 object-fit: cover;
 border-radius: 25px 25px 0 0;
+z-index: 1;
+
+}
+
+.Restaurants__bloc__carte__image {
+position: absolute;
+z-index: 1;
 
 }
 
@@ -272,7 +282,11 @@ width: 100%;
 }
 
 
+.Footer__header__title{
 
+  padding-top: 1rem;
+  margin-bottom: .5rem;
+}
 
 .Footer__header__title span {
 font-size: 25px;
@@ -298,6 +312,9 @@ height: 100%;
 
 }
 
+.Footer__list__column__items { 
+margin-bottom: .5rem;
+ }
 .Footer__list__column__items--mail {
 
   text-decoration: none;
