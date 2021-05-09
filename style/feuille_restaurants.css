@@ -114,7 +114,12 @@ padding-top: 0.50rem;
 line-height: 2rem;
 }
 
-.Restaurants__bloc__menu__title {
+.Restaurants__bloc__menu__title h3 {
 
-	
+	text-transform: uppercase;
+font-weight:500;
 }
+
+.Restaurants__bloc__menu__title {  
+     margin-bottom: 1.70rem;
+      }
