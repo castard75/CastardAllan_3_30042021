@@ -1,4 +1,4 @@
-@media screen and (max-width: 767.98px){
+@media (max-width: 767.98px){
 .bloc_page {
 	width: auto;
 }
@@ -17,6 +17,7 @@ z-index: 1;
 display: flex;
 justify-content: center;
 width: auto;
+margin-right: 2rem;
 
 }
 /*Reservation*/
@@ -122,8 +123,8 @@ font-family: "Shrikhand",sans-serif;
 
 }
 
-}
-@media screen and (min-width: 768px){
+   }
+@media (min-width: 768px){
 
 
 .header {
@@ -136,7 +137,7 @@ z-index: 1;
 
 }
 
-.localisation{
+{
 display: flex;
 justify-content: center;
 
@@ -245,7 +246,7 @@ font-family: "Shrikhand",sans-serif;
 
     }
 
-@media screen and(min-width: 1200px) {
+@media (min-width: 1200px) {
 
 
 .header {

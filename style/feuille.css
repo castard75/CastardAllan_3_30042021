@@ -13,6 +13,11 @@ body { font-family: "Roboto",sans-serif;
 
 
 
+
+
+
+
+
 /* HEADER */
 
 
@@ -38,8 +43,23 @@ body { font-family: "Roboto",sans-serif;
 
 
 .localisation__wrapper-icon {
-margin-right: 1rem;
 
+    margin-right: 1rem;
+    font-size: 20px;
+
+
+}
+
+.location__city__address{
+
+  font-size: 18px;
+}
+
+.localisation {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-right: 2rem;
 }
 
 /* RESERVATION */
@@ -93,7 +113,7 @@ margin-top: 3rem;
 background: linear-gradient(#B587EC ,#F59DDD );
 margin-top: 3rem;
 box-shadow:2px 4px 8px 1px rgb(191, 191, 191);
-
+cursor:pointer;
 }
 
 
@@ -264,7 +284,48 @@ span {
 }
 
 
+.Restaurants__bloc__carte__wrapper-icon{
 
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 2rem;
+height: 2rem;
+position: absolute;
+right: 1rem;
+background: #fff;
+}
+
+.Restaurants__bloc_text{
+  position: relative;
+}
+
+.Restaurants__bloc__carte__wrapper-icon--1{
+background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.Restaurants__bloc__carte__wrapper-icon--2{
+
+  transition-duration: .3s;
+}
+
+.Restaurants__bloc__carte__wrapper-icon--2:hover{
+  opacity: 0%;
+}
+.Restaurants__bloc__carte_icon--1 {  
+   -webkit-text-fill-color: transparent;
+   background-color: #1eab19;
+   -webkit-background-clip: text;
+}
+
+.Restaurants__bloc .fa-heart {
+
+  font-size: 1.65rem;
+}
 
 /*Footer*/
 

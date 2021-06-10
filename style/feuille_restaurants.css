@@ -26,10 +26,7 @@ justify-content: center;
 
 }
 
-.header__logo1{
 
-	height: 4rem;
-}
 
 
 .Header__menu{
@@ -68,7 +65,7 @@ width: 100%;
 
 width: 100%;
 position: absolute;
-top: 33rem;
+top: 30rem;
 border-radius: 50px;
 
 }
@@ -85,16 +82,6 @@ border-radius: 50px;
     font-family: "Shrikhand",sans-serif;
     font-size:1.50rem;
 }
-.Restaurants__bloc {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 1rem;
-grid-row-gap: 0px;
-padding: 0 2rem 0 2rem;
-
-
-}
 
 .Restaurants__bloc__1 {
 background: white;
@@ -108,6 +95,19 @@ margin-bottom: 1.7rem;
 }
 
 
+   
+
+.Restaurants__bloc__1:hover {
+cursor: pointer;
+background-color: red;
+transition:background-color  transform: scale(3, 0.5);; 
+transform: scale(1.05);
+transition: transform 450ms; 
+
+
+}
+
+
 .Restaurants__bloc_text{
 display: flex;
 flex-direction: column;
@@ -116,12 +116,89 @@ padding-top: 0.50rem;
 line-height: 2rem;
 }
 
+.Restaurants__bloc_text_2{
+display: flex;
+justify-content: space-between;
+}
+
+.Restaurants__bloc_text_2 > p {
+padding-right: 2rem;
+font-weight: bold;
+
+}
+
 .Restaurants__bloc__menu__title h3 {
 
 	text-transform: uppercase;
 font-weight:500;
+border-bottom: solid #99E2D0;
+width: 3.20rem;
 }
+
+
 
 .Restaurants__bloc__menu__title {  
      margin-bottom: 1.70rem;
       }
+
+
+.explore__btn:hover {
+background: linear-gradient(#B587EC ,#F59DDD );
+margin-top: 3rem;
+box-shadow:2px 4px 8px 1px rgb(191, 191, 191);
+
+}
+
+/*Footer*/
+
+.Footer{
+padding: 0rem 0rem 5rem 1rem;
+background: #383838;
+}
+
+
+.Footer__header {
+
+width: 100%;
+
+}
+
+
+.Footer__header__title{
+
+  padding-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.Footer__header__title span {
+font-size: 25px;
+
+}
+
+.Footer__header__title--img{
+
+  width: 40%;
+height: 100%;
+}
+
+.Footer__list__column {
+ color: white;
+}
+
+
+.Footer__list__column__items:hover{
+
+  transform: scale(1.01);
+    transition-duration: 0.2s;
+    cursor: pointer;
+
+}
+
+.Footer__list__column__items { 
+margin-bottom: .5rem;
+ }
+.Footer__list__column__items--mail {
+
+  text-decoration: none;
+color: white;
+}
