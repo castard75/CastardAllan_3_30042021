@@ -72,6 +72,56 @@ width: 100%;
 
 }
 
+.Restaurants__bloc_text1 {
+    background: -webkit-linear-gradient(#FF79DA, #9356DC);
+        background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Restaurants__bloc__carte__wrapper-icon{
+
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 2rem;
+height: 2rem;
+position: absolute;
+right: 1rem;
+background: #f6f6f6;
+}
+
+
+
+.Restaurants__bloc__carte__wrapper-icon--1{
+background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.Restaurants__bloc__carte__wrapper-icon--2{
+
+  transition-duration: .3s;
+}
+
+.Restaurants__bloc__carte__wrapper-icon--2:hover{
+  opacity: 0%;
+}
+.Restaurants__bloc__carte_icon--1 {  
+   -webkit-text-fill-color: transparent;
+   background-color: #1eab19;
+   -webkit-background-clip: text;
+}
+
+.Restaurants__bloc .fa-heart {
+
+  font-size: 1.65rem;
+}
+
+
 /* RESTAURANT*/
 
 
@@ -97,7 +147,15 @@ background: #f6f6f6;
     padding: 5rem 0rem 2rem 2.5rem;
     font-family: "Shrikhand",sans-serif;
     font-size: 1.50rem;
+    display: flex;
 }
+
+.Restaurants__menu-title h2 {
+   
+    font-family: "Shrikhand",sans-serif;
+font-size: 35px;
+}
+
 
    
 
@@ -239,7 +297,15 @@ color: white;
 }
 
 
+.Footer__list__column__items .fa-utensils{
+color: #FFF;
+margin-right: .5rem;
+}
 
+.Footer__list__column__items .fa-hands-helping{
+    color: #FFF;
+    margin-right: .5rem;
+}
 /*Keyframe*/
 
 @keyframes appearance {

@@ -357,6 +357,10 @@ font-family: "Shrikhand",sans-serif;
        height:35rem;
 }
 
+.Restaurants__menu-title span {
+    margin-right: 3rem;
+}
+
 .Restaurants {
     width: 100%;
     position: absolute;

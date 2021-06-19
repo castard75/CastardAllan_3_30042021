@@ -284,6 +284,10 @@ span {
 }
 
 
+.Restaurants__bloc_text{
+  position: relative;
+}
+
 .Restaurants__bloc__carte__wrapper-icon{
 
   display: flex;
@@ -296,9 +300,7 @@ right: 1rem;
 background: #fff;
 }
 
-.Restaurants__bloc_text{
-  position: relative;
-}
+
 
 .Restaurants__bloc__carte__wrapper-icon--1{
 background: -webkit-linear-gradient(#FF79DA, #9356DC);
