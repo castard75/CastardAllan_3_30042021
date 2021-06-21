@@ -131,19 +131,19 @@ animation-fill-mode: forwards
                   }
 
 
-.Header__menu__image img {
+.Header__menu__image {
     width: 100%;
     object-fit: cover;
     object-position: 25%;
     height: 22rem;
 }
 
-.Header__menu__image {  
+.Header__menu__image-délice img {
+    width: 100%;
     object-fit: cover;
-   
-    height: 20rem;
+    height: 17rem;
+    object-position: left bottom;
 }
-
 
 
 .Restaurants {
@@ -463,12 +463,6 @@ font-family: "Shrikhand",sans-serif;
     z-index: 1;
 }
 
-.Header__menu__image__restaurants img {
-    width: 105%;
-    object-fit: cover;
-    object-position: 16%;
-    height: 21rem;
-}
 
 .Header__menu__image {
     width: 100%;
@@ -478,7 +472,7 @@ font-family: "Shrikhand",sans-serif;
 }
 
 .Restaurants__menu-title span {
-    margin-right: 4.5rem;
+    margin-right: 3rem;
 }
 
 .Restaurants {
