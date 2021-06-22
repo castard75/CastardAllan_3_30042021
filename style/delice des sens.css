@@ -253,7 +253,6 @@ font-family: "Shrikhand",sans-serif;
 
 
    }
-
 @media (min-width: 768px)
 
 {
@@ -273,8 +272,16 @@ font-family: "Shrikhand",sans-serif;
     object-position: 16%;
     height: 22rem;
 }
+
 .Restaurants__menu-title span {
     margin-right: 3rem;
+}
+
+.palette{
+    padding: 5rem 0rem 2rem 0.5rem;
+    font-family: "Shrikhand",sans-serif;
+    font-size: 1.50rem;
+    display: flex;
 }
 
 .color-grey {
@@ -383,9 +390,7 @@ font-family: "Shrikhand",sans-serif;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-    margin-right: none;
-    padding-left:none;
-    margin-right: -1rem;
+  margin-right: -1rem;
 }
 .Restaurants__bloc__1__menu__confirmation {
     background-color: #99E2D0;
