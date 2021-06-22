@@ -131,14 +131,14 @@ animation-fill-mode: forwards
                   }
 
 
-.Header__menu__image img {
+.Header__menu__image {
     width: 100%;
     object-fit: cover;
-    object-position: 25%;
-    height: 22rem;
+    height: 26rem;
 }
 
-.Header__menu__image {  
+.Header__menu__image-palette {
+    width: 100%;
     object-fit: cover;
    
     height: 20rem;
@@ -228,7 +228,7 @@ color:#fff;
 
 .button__menu {
     position: relative;
-    top: 77rem;
+    top: 83rem;
     background: #f6f6f6;
     display: flex;
     justify-content: center;
@@ -238,11 +238,10 @@ color:#fff;
 
 
 .Footer {
-padding: 0rem 0rem 5rem 1rem;
-position: relative;
-top: 81rem;
+    padding: 0rem 0rem 5rem 1rem;
+    position: relative;
+    top: 87rem;
 }
-
 
 .Footer__header__title {
 
@@ -256,11 +255,9 @@ font-family: "Shrikhand",sans-serif;
 
    }
 
-@media (min-width: 768px)
+@media (min-width: 768px){
 
-{
-
-.header {
+	.header {
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,.2);
     margin: 0px;
     display: flex;
@@ -269,12 +266,6 @@ font-family: "Shrikhand",sans-serif;
     z-index: 1;
 }
 
-.Header__menu__image__restaurants img {
-    width: 100%;
-    object-fit: cover;
-    object-position: 16%;
-    height: 22rem;
-}
 .Restaurants__menu-title span {
     margin-right: 3rem;
 }
@@ -370,15 +361,16 @@ font-family: "Shrikhand",sans-serif;
 
 .button__menu {
     position: relative;
-    top: 65rem;
+    top: 71rem;
     background: #f6f6f6;
     display: flex;
     justify-content: center;
     padding: 27px;
         padding-bottom: 27px;
-    padding-bottom: 27px;
     padding-bottom: 11rem;
 }
+
+
 .menu_tarifs {
     display: flex;
     justify-content: flex-end;
@@ -426,11 +418,10 @@ font-family: "Shrikhand",sans-serif;
 
 /*Footer*/
 
-
 .Footer {
     padding: 0rem 0rem 5rem 1rem;
     position: relative;
-    top: 65rem;
+    top: 71rem;
 }
 
 .Footer__header__title {
@@ -449,8 +440,6 @@ font-family: "Shrikhand",sans-serif;
 
 
 
-
-
    @media (min-width: 1200px) {
 
    	/*header*/
@@ -463,12 +452,6 @@ font-family: "Shrikhand",sans-serif;
     z-index: 1;
 }
 
-.Header__menu__image__restaurants img {
-    width: 105%;
-    object-fit: cover;
-    object-position: 16%;
-    height: 21rem;
-}
 
 .Header__menu__image {
     width: 100%;
@@ -480,11 +463,10 @@ font-family: "Shrikhand",sans-serif;
 .Restaurants__menu-title span {
     margin-right: 4.5rem;
 }
-
 .Restaurants {
     width: 100%;
     position: absolute;
-    top: 23rem;
+    top: 35rem;
     border-radius: 50px;
 }
 .Restaurants__bloc {
@@ -541,16 +523,14 @@ margin-right: 20px;
 
 .button__menu {
     position: relative;
-    top: 28rem;
+    top: 31rem;
     background: #f6f6f6;
     display: flex;
     justify-content: center;
     padding: 27px;
         padding-bottom: 27px;
-    padding-bottom: 27px;
     padding-bottom: 8rem;
 }
-
 
 .bouton{
 text-decoration: none;
@@ -561,10 +541,12 @@ padding-right: 2.5rem;
 
 /*Footer*/
 
+
 .Footer {
     padding: 0rem 0rem 5rem 1rem;
     position: relative;
-    top: 28rem;}
+    top: 31rem;
+}
 
 .Footer__header__title {
 
