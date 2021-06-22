@@ -489,7 +489,7 @@ font-family: "Shrikhand",sans-serif;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    max-width: 350px;
+    max-width: 373px;
 }
 .menu_tarifs {
     display: flex;
@@ -497,7 +497,7 @@ font-family: "Shrikhand",sans-serif;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-margin-right: 20px;
+margin-right: 3px;
 }
 
 

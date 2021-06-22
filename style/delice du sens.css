@@ -464,15 +464,9 @@ font-family: "Shrikhand",sans-serif;
     width: 100%;
     object-fit: cover;
     height: 18rem;
+    height: 35rem;
 }
 
-
-.Header__menu__image {
-    width: 100%;
-    object-fit: cover;
-    object-position: 16%;
-       height:35rem;
-}
 
 
 .header_menu {
@@ -490,7 +484,7 @@ font-family: "Shrikhand",sans-serif;
 .Restaurants {
     width: 100%;
     position: absolute;
-    top: 19rem;
+    top: 35rem;
     border-radius: 50px;
 }
 
@@ -512,7 +506,7 @@ font-family: "Shrikhand",sans-serif;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    max-width: 350px;
+    max-width: 373px;
 }
 .menu_tarifs {
     display: flex;
@@ -520,7 +514,7 @@ font-family: "Shrikhand",sans-serif;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-margin-right: 20px;
+margin-right: 3px;
 }
 
 

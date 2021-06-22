@@ -228,7 +228,7 @@ color:#fff;
 
 .button__menu {
     position: relative;
-    top: 83rem;
+    top: 79rem;
     background: #f6f6f6;
     display: flex;
     justify-content: center;
@@ -240,7 +240,7 @@ color:#fff;
 .Footer {
     padding: 0rem 0rem 5rem 1rem;
     position: relative;
-    top: 87rem;
+    top: 84rem;
 }
 
 .Footer__header__title {
@@ -487,7 +487,7 @@ font-family: "Shrikhand",sans-serif;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    max-width: 350px;
+    max-width: 373px;
 }
 .menu_tarifs {
     display: flex;
@@ -495,7 +495,7 @@ font-family: "Shrikhand",sans-serif;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-margin-right: 20px;
+margin-right: 3px;
 }
 
 
@@ -523,7 +523,7 @@ margin-right: 20px;
 
 .button__menu {
     position: relative;
-    top: 31rem;
+    top: 32rem;
     background: #f6f6f6;
     display: flex;
     justify-content: center;
@@ -545,7 +545,7 @@ padding-right: 2.5rem;
 .Footer {
     padding: 0rem 0rem 5rem 1rem;
     position: relative;
-    top: 31rem;
+    top: 32rem;
 }
 
 .Footer__header__title {
