@@ -44,13 +44,13 @@ margin-right: 3rem;
 /*Restaurant*/
 .color-grey { 
 	padding: 0rem 1rem 5rem 1rem;
-	margin-left: none;  
+	margin-left: inherit;  
 }
 
 
 .Restaurants__header-title {
     padding: 5rem 0rem 2rem 1.2rem;
-    margin-left: none;
+    margin-left: inherit;
 }
 .Restaurants__bloc {
 display: flex;
@@ -137,11 +137,19 @@ z-index: 1;
 
 }
 
-{
-display: flex;
-justify-content: center;
-
+.titlemarge {
+    margin-right: 9.5rem;
 }
+
+.Fonctionnement__header__title2 {
+    margin-right: 11rem;
+    font-size: 1.2rem;
+}
+
+.Fonctionnement__header__title2 p {
+	margin-right: 1rem;
+}
+
 /*Reservation*/
 .Reservation__section{
 padding: 2rem 0px 4rem 4rem;
@@ -166,13 +174,13 @@ margin-right: 3rem;
 /*Restaurant*/
 .color-grey { 
 	padding: 0rem 1rem 5rem 1rem;
-	margin-left: none;  
+	margin-left:inherit;  
 }
 
 
 .Restaurants__header-title {
     padding: 5rem 0rem 2rem 1.2rem;
-    margin-left: none;
+    margin-left:inherit;
 }
 .Restaurants__bloc {
 display: flex;
@@ -244,7 +252,7 @@ font-family: "Shrikhand",sans-serif;
 
 }
 
-    }
+   
 
 @media (min-width: 1200px) {
 
@@ -312,6 +320,13 @@ margin-right: 0;
 padding: 5rem 0rem 2rem 1.2rem;
 
 }
+
+
+.Fonctionnement__header__title2 {
+    margin-right: 5rem;
+    font-size: 1.2rem;
+}
+
 .box {
 grid-template-columns: repeat(3, 1fr);
 display: grid;
@@ -333,9 +348,11 @@ grid-row-gap: 2rem;
 
 
 }
+
 .Restaurants__bloc__1{
 	margin: 0;
 }
+
 .Restaurants__bloc_text{
 display: flex;
 flex-direction: column;
@@ -360,4 +377,5 @@ font-family: "Shrikhand",sans-serif;
 
 }
 
-    }
+         }
+    

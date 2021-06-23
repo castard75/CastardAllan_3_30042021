@@ -242,7 +242,10 @@ padding: 0rem 0rem 5rem 1rem;
 position: relative;
 top: 81rem;
 }
-
+.footer__column__link {
+    text-decoration: none;
+    color: #FFF;
+}
 
 .Footer__header__title {
 
@@ -252,6 +255,8 @@ color: #fff;
 font-family: "Shrikhand",sans-serif;
 
 }
+
+
 
 
    }
@@ -432,6 +437,11 @@ font-family: "Shrikhand",sans-serif;
     top: 65rem;
 }
 
+.footer__column__link {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .Footer__header__title {
 
 
@@ -492,6 +502,8 @@ font-family: "Shrikhand",sans-serif;
     padding: 0rem 2rem 0 2rem;
 }
 
+
+
 .Restaurants__bloc__1 {
     background-color: #FFF;
     height: 70px;
@@ -547,7 +559,10 @@ margin-right: 3px;
     padding-bottom: 27px;
     padding-bottom: 8rem;
 }
-
+.btn {
+   padding-right: 3rem;
+    padding-left: 3rem;
+}
 .bouton{
 text-decoration: none;
 color:#fff;
@@ -563,6 +578,12 @@ padding-right: 2.5rem;
     position: relative;
     top: 26rem;
 }
+
+.footer__column__link {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .Footer__header__title {
 
 

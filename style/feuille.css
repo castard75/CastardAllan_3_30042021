@@ -71,7 +71,7 @@ body { font-family: "Roboto",sans-serif;
 .Reservation__section__header__title{
 
 	font-size: 1.5rem;
-font-weight: 701;
+font-weight: 700;
 line-height: 1.4;
 
 color: #000;
@@ -135,14 +135,14 @@ margin-left: -1rem;
 .Fonctionnement__header-title h2{
 
   font-size: 1.5rem;
-font-weight: 701;
+font-weight: 700;
 }
 
 .Fonctionnement__header-box:hover {
 
   background: #f4edfe;
    transform: scale(1.02);
-    transition-duration: 0.2s;}
+    transition-duration: 0.2s;
 }
 
 .Fonctionnement__header-box__icon {
@@ -192,7 +192,7 @@ margin-left: -1rem;
 
 .Restaurants__header-title h2 {
 font-size: 1.5rem;
-font-weight: 701;
+font-weight: 700;
 
 }
 
@@ -344,6 +344,7 @@ width: 100%;
 }
 
 
+
 .Footer__header__title{
 
   padding-top: 1rem;
@@ -355,6 +356,18 @@ font-size: 25px;
 
 }
 
+
+.Footer__list__column__items .fa-utensils {
+    color: #FFF;
+    margin-right: .5rem;
+}
+
+.Footer__list__column__items .fa-hands-helping {
+    color: #FFF;
+    margin-right: .5rem;
+}
+
+
 .Footer__header__title--img{
 
   width: 40%;
@@ -365,6 +378,11 @@ height: 100%;
  color: white;
 }
 
+.footer__column__link{
+
+text-decoration: none;
+color: #FFF;
+}
 
 .Footer__list__column__items:hover{
 

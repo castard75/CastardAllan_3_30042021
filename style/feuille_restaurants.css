@@ -166,7 +166,7 @@ cursor: pointer;
 }
 
 .delay1{
-  animation-delay: 0;
+  animation-delay: 0.10s;
 }
 
 .delay2{
@@ -207,6 +207,13 @@ font-weight: bold;
 
 }
 
+.explore__btn {
+    background: linear-gradient(#9356DC ,#FF79DA );
+    margin-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
 
 .Restaurants__bloc_text-menu {
   height: 100%;
@@ -237,6 +244,8 @@ margin-top: 3rem;
 box-shadow:2px 4px 8px 1px rgb(191, 191, 191);
 
 }
+
+
 
 
 
@@ -305,6 +314,12 @@ margin-right: .5rem;
 .Footer__list__column__items .fa-hands-helping{
     color: #FFF;
     margin-right: .5rem;
+}
+
+
+.footer__column__link {
+    text-decoration: none;
+    color: #FFF;
 }
 /*Keyframe*/
 
