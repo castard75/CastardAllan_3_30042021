@@ -422,8 +422,8 @@ font-family: "Shrikhand",sans-serif;}
     font-size: 1.10rem;
     position: absolute;
     bottom: 3rem;
-     padding-left: 2rem;
-    padding-right: 2rem;
+     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 
@@ -540,6 +540,8 @@ margin-right: 3px;
     text-align: center;
     padding: 1rem;
     font-size: 1.10rem;
+     padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 .explore__btn {

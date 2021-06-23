@@ -422,8 +422,8 @@ font-family: "Shrikhand",sans-serif;
     font-size: 1.10rem;
     position: absolute;
     bottom: 3rem;
-     padding-left: 2rem;
-    padding-right: 2rem;
+     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 
@@ -530,8 +530,12 @@ margin-right: 3px;
     cursor: pointer;
     text-align: center;
     padding: 1rem;
+         padding-right: 3rem;
+    padding-left: 3rem;
     font-size: 1.10rem;
 }
+
+
 
 .explore__btn {
     background: linear-gradient(#9356DC ,#FF79DA );
