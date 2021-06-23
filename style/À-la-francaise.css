@@ -119,7 +119,7 @@ animation-fill-mode: forwards
 
 100%  {
   transform: translateX(-4rem);
-   opacity: 10;}
+   opacity:10;}
 
                   }
 
@@ -385,8 +385,7 @@ font-family: "Shrikhand",sans-serif;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-    margin-right: none;
-    padding-left:none;
+    
     margin-right: -1rem;
 }
 .Restaurants__bloc__1__menu__confirmation {
@@ -467,6 +466,13 @@ font-family: "Shrikhand",sans-serif;
     object-fit: cover;
     object-position: 16%;
        height:35rem;
+}
+
+.Restaurants__menu-title {
+    padding: 5rem 0rem 2rem 2.5rem;
+    font-family: "Shrikhand",sans-serif;
+    font-size: 1.50rem;
+    display: flex;
 }
 
 .Restaurants__menu-title span {
