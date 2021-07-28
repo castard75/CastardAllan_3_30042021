@@ -470,7 +470,7 @@ font-family: "Shrikhand",sans-serif;
 }
 
 .Header__menu__image__restaurants img {
-    width: 105%;
+    width: 100%;
     object-fit: cover;
     object-position: 16%;
     height: 35rem;
