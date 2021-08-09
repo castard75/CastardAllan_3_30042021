@@ -21,7 +21,7 @@
 
   }
   /*Reservation*/
-  .Reservation__section {
+  .reservation__section {
       display: flex;
       justify-content: center;
       background: #f6f6f6;
@@ -29,7 +29,7 @@
       text-align: center;
   }
 
-  .Reservation__section__header__title {
+  .reservation__section__header__title {
       font-size: 1.5rem;
       font-weight: 700;
       line-height: 1.4;
@@ -38,13 +38,13 @@
       margin: 0rem 2em 1rem 2rem;
   }
 
-  .Reservation__section__header__subtitle {
+  .reservation__section__header__subtitle {
     font-size: 1.125rem;
   font-weight: 300;
   color: #353535;
   }
 
-  .Reservation__section__items{
+  .reservation__section__items{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -58,11 +58,25 @@
   }
 
 
-  .Restaurants__header-title {
-      padding: 5rem 0rem 2rem 1.2rem;
+  .restaurants__header-title {
+      padding: 3rem 0rem 2rem 1.2rem;
       margin-left: inherit;
   }
-  .Restaurants__bloc {
+
+  .restaurants__bloc__carte__Ticket{
+
+padding: .25rem .5rem;
+color: #4f4e4e;
+position: absolute;
+right: 1rem;
+top: 1rem;
+background-color: #99E2D0;
+border-radius: 5px;
+box-shadow: 1px 1px 1px #0000002e;
+z-index: 2;
+font-size: 17px;
+}
+  .restaurants__bloc {
   display: flex;
   flex-direction: column;
 
@@ -70,7 +84,22 @@
 
   }
 
-  .Restaurants__bloc__1 {
+  .restaurants__bloc--img {
+width: 100%;
+height: 11rem;
+object-fit: cover;
+border-radius: 25px 25px 0 0;
+z-index: 1;
+object-position: bottom;
+
+}
+
+.restaurants__bloc--img2{
+object-position: 50% 60%;
+
+
+}
+  .restaurants__bloc__1 {
   background: white;
   border-radius: 25px 25px 25px 25px;
   transition-duration: 0.1s;
@@ -82,7 +111,7 @@
   }
 
 
-  .Restaurants__bloc_text{
+  .restaurants__bloc_text{
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
@@ -91,7 +120,7 @@
   }
 
   /*Fonctionnement*/
-  .Fonctionnement {
+  .fonctionnement {
       width: auto;
     padding: 0rem 0.25rem 3rem 0.25rem;
   }
@@ -100,7 +129,7 @@
       margin-right: 1.5rem;
   }
 
-  .Fonctionnement__header__title2 {
+  .fonctionnement__header__title2 {
       margin-right: 1.5rem;
      
   }
@@ -108,13 +137,13 @@
 
  
 
-  .Fonctionnement__header-title
+  .fonctionnement__header-title
   {
     padding: 5rem 0rem 2rem 2rem;
 
   }
 
-  .Fonctionnement__header-box {
+  .fonctionnement__header-box {
   background: #f6f6f6;
   color: black;
 
@@ -138,7 +167,7 @@
 
   /*Footer*/
 
-  .Footer__header__title {
+  .footer__header__title {
 
 
     display: flex;
@@ -167,17 +196,17 @@
       margin-right: 9.5rem;
   }
 
-  .Fonctionnement__header__title2 {
+  .fonctionnement__header__title2 {
       margin-right: 11rem;
       font-size: 1.2rem;
   }
 
-  .Fonctionnement__header__title2 p {
+  .fonctionnement__header__title2 p {
   	margin-right: 1rem;
   }
 
   /*Reservation*/
-  .Reservation__section{
+  .reservation__section{
   padding: 2rem 0px 4rem 4rem;
   display: flex;
   justify-content: center;
@@ -187,7 +216,7 @@
 
 
 
-  .Reservation__section__items{
+  .reservation__section__items{
 
 
 
@@ -204,11 +233,11 @@
   }
 
 
-  .Restaurants__header-title {
+  .restaurants__header-title {
       padding: 5rem 0rem 2rem 1.2rem;
       margin-left:inherit;
   }
-  .Restaurants__bloc {
+  .restaurants__bloc {
   display: flex;
   flex-direction: column;
 
@@ -216,10 +245,10 @@
 
   }
 
-  .Restaurants__bloc__1 {
+  .restaurants__bloc__1 {
   background: white;
   border-radius: 25px 25px 25px 25px;
-  transition-duration: 0.1s;
+  
   cursor: pointer;
   padding-bottom: 1rem;
   box-shadow: 0 0 16px #0000002e;
@@ -227,7 +256,7 @@
   }
 
 
-  .Restaurants__bloc_text{
+  .restaurants__bloc_text{
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
@@ -236,15 +265,15 @@
   }
 
   /*Fonctionnement*/
-  .Fonctionnement {
+  .fonctionnement {
 
   	padding: 0rem 0rem 5rem 1rem;
   }
 
-  .Fonctionnement__header-title
+  .fonctionnement__header-title
   {padding: 5rem 0rem 2rem 2rem;}
 
-  .Fonctionnement__header-box {
+  .fonctionnement__header-box {
   background: #f6f6f6;
   color: black;
   font-weight: bold;
@@ -269,7 +298,7 @@
 
   /*Footer*/
 
-  .Footer__header__title {
+  .footer__header__title {
 
 
     display: flex;
@@ -302,7 +331,7 @@
   }
 
   /*Reservation*/
-  .Reservation__section{
+  .reservation__section{
   padding: 2rem 0px 4rem 4rem;
   display: flex;
   justify-content: center;
@@ -312,7 +341,7 @@
 
 
 
-  .Reservation__section__items{
+  .reservation__section__items{
 
 
 
@@ -327,7 +356,7 @@
 
 
 
-  .Fonctionnement__header-box {
+  .fonctionnement__header-box {
   background: #f6f6f6;
   color: black;
   font-weight: bold;
@@ -344,13 +373,13 @@
   margin-right: 0;
   }
 
-  .Fonctionnement__header-title{
+  .fonctionnement__header-title{
   padding: 5rem 0rem 2rem 1.2rem;
 
   }
 
 
-  .Fonctionnement__header__title2 {
+  .fonctionnement__header__title2 {
       margin-right: 5rem;
       font-size: 1.2rem;
   }
@@ -367,7 +396,7 @@
   }
 
   /*Restaurant*/
-  .Restaurants__bloc {
+  .restaurants__bloc {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -377,11 +406,11 @@
 
   }
 
-  .Restaurants__bloc__1{
+  .restaurants__bloc__1{
   	margin: 0;
   }
 
-  .Restaurants__bloc_text{
+  .restaurants__bloc_text{
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
@@ -391,12 +420,12 @@
 
 
   /*Footer*/
-  .Footer {
+  .footer {
   padding: 0rem 0rem 5rem 1rem;
   }
 
 
-  .Footer__header__title {
+  .footer__header__title {
 
 
     display: flex;

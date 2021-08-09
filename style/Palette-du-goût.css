@@ -3,7 +3,7 @@
 
 
 
-.Restaurants__menu-title {
+.restaurants__menu-title {
     padding: 3rem 0rem 2rem 0.5rem;
     font-family: "Shrikhand",sans-serif;
     font-size: 1.50rem;
@@ -11,14 +11,14 @@
 
 
 
-.Restaurants__menu-title h2
+.restaurants__menu-title h2
  {
     font-size: 30px;
 
 }
 
 
-.Restaurants__menu-title span {
+.restaurants__menu-title span {
     margin-right: 1.5rem;
 }
 
@@ -50,34 +50,34 @@ animation-fill-mode: forwards
 }
 
 
-.delay1:active .Restaurants__bloc__1__menu__confirmation{
+.delay1:active .restaurants__bloc__1__menu__confirmation{
   animation: slide 1s forwards;
 }
 
 
 
-.delay2:active .Restaurants__bloc__1__menu__confirmation{
+.delay2:active .restaurants__bloc__1__menu__confirmation{
   animation: slide 1s forwards;
 }
 
 
-.delay3:active .Restaurants__bloc__1__menu__confirmation{
+.delay3:active .restaurants__bloc__1__menu__confirmation{
   animation: slide 1s forwards;
 }
-.Restaurants__bloc__menu:hover .fa-check-circle {
+.restaurants__bloc__menu:hover .fa-check-circle {
     animation: rotation 1s;
 }
 
 
-.Restaurants__bloc__1:hover .header_menu {
+.restaurants__bloc__1:hover .header_menu {
     max-width: 129px;
 }
-.Restaurants__bloc__1:hover .header_menu {
+.restaurants__bloc__1:hover .header_menu {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-.Restaurants__bloc__1:hover .Restaurants__bloc__1__menu__confirmation {
+.restaurants__bloc__1:hover .restaurants__bloc__1__menu__confirmation {
     margin-right: 0px;
     min-width: 4rem;
     transition: margin-right 0.5s;
@@ -103,11 +103,11 @@ animation-fill-mode: forwards
     white-space: nowrap;
 }
 
-.Restaurants__bloc__1__menu h4 {
+.restaurants__bloc__1__menu h4 {
     overflow: hidden;
 }
 
-.Restaurants__bloc__1__menu h3 {
+.restaurants__bloc__1__menu h3 {
     overflow: hidden;
 }
 
@@ -131,21 +131,21 @@ animation-fill-mode: forwards
                   }
 
 
-.Header__menu__image img {
+.header__menu__image img {
     width: 100%;
     object-fit: cover;
     object-position: 25%;
     height: 22rem;
 }
 
-.Header__menu__image {
+.header__menu__image {
     object-fit: cover;
     height: 22.5rem;
     object-position: 75%;
 }
 
 
-.Restaurants {
+.restaurants {
     width: 100%;
     position: absolute;
     top: 22rem;
@@ -158,7 +158,7 @@ animation-fill-mode: forwards
     border-radius: 50px;
     background: #f6f6f6;
 } 
-.Restaurants__bloc {
+.restaurants__bloc {
     display: flex;
     flex-direction: column;
     grid-column-gap: 1rem;
@@ -169,7 +169,7 @@ animation-fill-mode: forwards
 
 
 
-.Restaurants__bloc__1 {
+.restaurants__bloc__1 {
     background-color: #FFF;
      padding: 0 0 0 1rem;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
@@ -236,14 +236,14 @@ color:#fff;
 /*Footer*/
 
 
-.Footer {
+.footer {
 padding: 0rem 0rem 5rem 1rem;
 position: relative;
 top: 81rem;
 }
 
 
-.Footer__header__title {
+.footer__header__title {
 
 
   display: flex;
@@ -268,13 +268,13 @@ font-family: "Shrikhand",sans-serif;
     z-index: 1;
 }
 
-.Header__menu__image__restaurants img {
+.header__menu__image__restaurants img {
     width: 100%;
     object-fit: cover;
     object-position: 16%;
     height: 22rem;
 }
-.Restaurants__menu-title span {
+.restaurants__menu-title span {
     margin-right: 3rem;
 }
 
@@ -283,21 +283,21 @@ font-family: "Shrikhand",sans-serif;
     border-radius: 3rem 3rem 0px 0px;
     background: #f6f6f6;
 }
-.Header__menu__image {
+.header__menu__image {
     width: 100%;
     object-fit: cover;
     object-position: 16%;
        height: 22rem;
 }
 
-.Restaurants {
+.restaurants {
     width: 100%;
     position: absolute;
     top: 23rem;
     border-radius: 50px;
 }
 
-.Restaurants__menu-title {
+.restaurants__menu-title {
     padding: 5rem 0rem 2rem 0.5rem;
     font-family: "Shrikhand",sans-serif;
     font-size: 1.50rem;
@@ -305,7 +305,7 @@ font-family: "Shrikhand",sans-serif;
 }
 
 
-.Restaurants__bloc {
+.restaurants__bloc {
     display: flex;
     flex-direction: column;
     grid-column-gap: 1rem;
@@ -315,7 +315,7 @@ font-family: "Shrikhand",sans-serif;
 }
 
 
-.Restaurants__bloc__1__menu {
+.restaurants__bloc__1__menu {
     padding: 14px 0;
     border-radius: 0.75rem;
     display: flex;
@@ -324,7 +324,7 @@ font-family: "Shrikhand",sans-serif;
 
 
 
- .Restaurants__bloc__1{
+ .restaurants__bloc__1{
     background-color: #FFF;
     height: 70px;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
@@ -395,7 +395,7 @@ font-family: "Shrikhand",sans-serif;
     font-weight: bold;
     margin-right: -1rem;
 }
-.Restaurants__bloc__1__menu__confirmation {
+.restaurants__bloc__1__menu__confirmation {
     background-color: #99E2D0;
     min-width: 4rem;
     display: flex;
@@ -433,13 +433,13 @@ font-family: "Shrikhand",sans-serif;
 /*Footer*/
 
 
-.Footer {
+.footer {
     padding: 0rem 0rem 5rem 1rem;
     position: relative;
     top: 65rem;
 }
 
-.Footer__header__title {
+.footer__header__title {
 
 
   display: flex;
@@ -469,7 +469,7 @@ font-family: "Shrikhand",sans-serif;
     z-index: 1;
 }
 
-.Header__menu__image__restaurants img {
+.header__menu__image__restaurants img {
     width: 100%;
     object-fit: cover;
     object-position: 16%;
@@ -477,17 +477,17 @@ font-family: "Shrikhand",sans-serif;
 }
 
 
-.Restaurants__menu-title span {
+.restaurants__menu-title span {
     margin-right: 4.5rem;
 }
 
-.Restaurants {
+.restaurants {
     width: 100%;
     position: absolute;
     top: 35rem;
     border-radius: 50px;
 }
-.Restaurants__bloc {
+.restaurants__bloc {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -495,7 +495,7 @@ font-family: "Shrikhand",sans-serif;
     padding: 0rem 2rem 0 2rem;
 }
 
-.Restaurants__bloc__1 {
+.restaurants__bloc__1 {
     background-color: #FFF;
     height: 70px;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
@@ -564,7 +564,7 @@ padding-right: 2.5rem;
 }
 
 
-.Restaurants__menu-title {
+.restaurants__menu-title {
     padding: 5rem 0rem 2rem 2.5rem;
     font-family: "Shrikhand",sans-serif;
     font-size: 1.50rem;
@@ -572,12 +572,12 @@ padding-right: 2.5rem;
 }
 /*Footer*/
 
-.Footer {
+.footer {
     padding: 0rem 0rem 5rem 1rem;
     position: relative;
     top: 28rem;}
 
-.Footer__header__title {
+.footer__header__title {
 
 
   display: flex;

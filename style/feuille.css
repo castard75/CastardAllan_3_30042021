@@ -35,7 +35,7 @@ body { font-family: "Roboto",sans-serif;
 
 
 
-.Localisation__section__background {
+.localisation__section__background {
 
 	background: #eaeaea;
 	padding: 1rem 0rem;
@@ -68,7 +68,7 @@ body { font-family: "Roboto",sans-serif;
 
 
 
-.Reservation__section__header__title{
+.reservation__section__header__title{
 
 	font-size: 1.5rem;
 font-weight: 700;
@@ -78,7 +78,7 @@ color: #000;
 padding-bottom: 10px;
 }
 
-.Reservation__section__header__subtitle{
+.reservation__section__header__subtitle{
 	font-size: 1rem;
 font-weight: 400;
 line-height: 1.4;
@@ -120,32 +120,32 @@ cursor:pointer;
 
 /* FONCTIONNEMENT*/
 
-.Fonctionnement{
+.fonctionnement{
 padding: 0rem 1rem 5rem 1rem;
 
 }
 
 
-.Fonctionnement__header-title {
+.fonctionnement__header-title {
 padding: 5rem 5rem 2rem 0;
 margin-left: -1rem;
 
 }
 
-.Fonctionnement__header-title h2{
+.fonctionnement__header-title h2{
 
   font-size: 1.5rem;
 font-weight: 700;
 }
 
-.Fonctionnement__header-box:hover {
+.fonctionnement__header-box:hover {
 
   background: #f4edfe;
    transform: scale(1.02);
     transition-duration: 0.2s;
 }
 
-.Fonctionnement__header-box__icon {
+.fonctionnement__header-box__icon {
 
 	color:#6b6b6b;
 	margin-right: 2rem;
@@ -153,7 +153,7 @@ font-weight: 700;
 
 
 
-.Fonctionnement__header__title2 {
+.fonctionnement__header__title2 {
 
 	margin-right: 5rem;
   font-size: 1.2rem;
@@ -178,19 +178,19 @@ top: 1.4rem;
 }
 
 /*Restaurants*/
-.Restaurants{
+.restaurants{
 
 background-color:#f6f6f6;
 }
 
-.Restaurants__header-title{
+.restaurants__header-title{
   padding: 5rem 5rem 2rem 0;
 margin-left: -1rem;
 
 }
 
 
-.Restaurants__header-title h2 {
+.restaurants__header-title h2 {
 font-size: 1.5rem;
 font-weight: 700;
 
@@ -204,7 +204,7 @@ padding: 2rem 7rem 3rem 7.5vw;
 
 
 
-.Restaurants__bloc__1 {
+.restaurants__bloc__1 {
 background: white;
 border-radius: 25px 25px 25px 25px;
 transition-duration: 0.1s;
@@ -215,13 +215,13 @@ position: relative;
 
 }
 
-.Restaurants__bloc__carte__Ticket{
+.restaurants__bloc__carte__Ticket{
 
-padding: 0.5rem 1.5rem;
+padding:.25rem .5rem;
 color: #4f4e4e;
 position: absolute;
-right: 1.5rem;
-top: 3rem;
+right: 0.5rem;
+top: 0.8rem;
 background-color: #99E2D0;
 border-radius: 5px;
 box-shadow: 1px 1px 1px #0000002e;
@@ -233,12 +233,13 @@ z-index: 2;
 
 }
 
-.Restaurants__bloc--img {
+.restaurants__bloc--img {
 width: 100%;
-height: 20rem;
+height: 22rem;
 object-fit: cover;
 border-radius: 25px 25px 0 0;
 z-index: 1;
+object-position: bottom;
 
 }
 
@@ -249,23 +250,23 @@ z-index: 1;
 }
 
 
-.Restaurants__bloc--img1{
+.restaurants__bloc--img1{
 object-position: bottom;
 
 }
 
 
-.Restaurants__bloc--img2{
-object-position: 0 65%;
+.restaurants__bloc--img2{
+object-position: 50% 60%;
 
 
 }
 
-.Restaurants__bloc--img3{
-object-position: 10% 80%;
+.restaurants__bloc--img3{
+object-position: bottom;;
 }
 
-.Restaurants__bloc--img4{
+.restaurants__bloc--img4{
 
   object-position:  bottom;
 }
@@ -284,11 +285,11 @@ span {
 }
 
 
-.Restaurants__bloc_text{
+.restaurants__bloc_text{
   position: relative;
 }
 
-.Restaurants__bloc__carte__wrapper-icon{
+.restaurants__bloc__carte__wrapper-icon{
 
   display: flex;
 align-items: center;
@@ -302,7 +303,7 @@ background: #fff;
 
 
 
-.Restaurants__bloc__carte__wrapper-icon--1{
+.restaurants__bloc__carte__wrapper-icon--1{
 background: -webkit-linear-gradient(#FF79DA, #9356DC);
     background-clip: border-box;
 -webkit-background-clip: text;
@@ -310,59 +311,54 @@ background: -webkit-linear-gradient(#FF79DA, #9356DC);
 
 }
 
-.Restaurants__bloc__carte__wrapper-icon--2{
+.restaurants__bloc__carte__wrapper-icon--2{
 
   transition-duration: .3s;
 }
 
-.Restaurants__bloc__carte__wrapper-icon--2:hover{
+.restaurants__bloc__carte__wrapper-icon--2:hover{
   opacity: 0%;
 }
-.Restaurants__bloc__carte_icon--1 {  
-   -webkit-text-fill-color: transparent;
-   background-color: #1eab19;
-   -webkit-background-clip: text;
-}
 
-.Restaurants__bloc .fa-heart {
+.restaurants__bloc .fa-heart {
 
   font-size: 1.65rem;
 }
 
 /*Footer*/
 
-.Footer{
+.footer{
 padding: 0rem 0rem 5rem 1rem;
 background: #383838;
 }
 
 
-.Footer__header {
+.footer__header {
 
-width: 100%;
+width: max-content;
 
 }
 
 
 
-.Footer__header__title{
+.footer__header__title{
 
   padding-top: 1rem;
   margin-bottom: .5rem;
 }
 
-.Footer__header__title span {
+.footer__header__title span {
 font-size: 25px;
 
 }
 
 
-.Footer__list__column__items .fa-utensils {
+.footer__list__column__items .fa-utensils {
     color: #FFF;
     margin-right: .5rem;
 }
 
-.Footer__list__column__items .fa-hands-helping {
+.footer__list__column__items .fa-hands-helping {
     color: #FFF;
     margin-right: .5rem;
 }
@@ -374,7 +370,7 @@ font-size: 25px;
 height: 100%;
 }
 
-.Footer__list__column {
+.footer__list__column {
  color: white;
 }
 
@@ -384,7 +380,7 @@ text-decoration: none;
 color: #FFF;
 }
 
-.Footer__list__column__items:hover{
+.footer__list__column__items:hover{
 
   transform: scale(1.01);
     transition-duration: 0.2s;
@@ -392,7 +388,7 @@ color: #FFF;
 
 }
 
-.Footer__list__column__items { 
+.footer__list__column__items { 
 margin-bottom: .5rem;
  }
 .Footer__list__column__items--mail {
