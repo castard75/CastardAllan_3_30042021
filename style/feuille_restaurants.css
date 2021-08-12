@@ -165,26 +165,6 @@ cursor: pointer;
 
 }
 
-.delay1{
-  animation-delay: 0.1s;
-  
-  -webkit-animation-delay:0.1s;
-   animation: appearance 1s;
-}
-
-.delay2{
-animation-delay: 0.2s;
-
-animation: appearance 3s;
-
-}
-
-.delay3{
-animation-delay: 0.3s;
-
-animation: appearance 5s;
-}
-
 
 
 .Restaurants__bloc_text{
@@ -313,39 +293,21 @@ margin-bottom: .5rem;
   text-decoration: none;
 color: white;
 }
-
-
-.footer__list__column__items .fa-utensils{
-color: #FFF;
-margin-right: .5rem;
-}
-
-.footer__list__column__items .fa-hands-helping{
+.footer__list__column__items .fa-utensils {
     color: #FFF;
     margin-right: .5rem;
 }
-
-
+.footer__list__column__items .fa-hands-helping {
+    color: #FFF;
+    margin-right: .5rem;
+}
 .footer__column__link {
     text-decoration: none;
     color: #FFF;
 }
-/*Keyframe*/
 
 
-@keyframes appearance {
-    0% {
-        opacity: 0;
-        z-index: -1;
-        transform: translateY(1rem);
-    }
-    
-    100% {
-        opacity: 1;
-        z-index: 0;
-        transform: translateY(0);
-    }
-}
+
 @keyframes slide {
 
 0% {
@@ -358,16 +320,10 @@ margin-right: .5rem;
 
                   }
 
-@keyframes rotation {
-
-  0%{ transform: rotate(360deg);}
-  100%{ transform: rotate(0deg); }
-                  }
-
 
 .restaurants__bloc__1 {  
 background-color: #FFF;
-
+ animation: opacity 1s both;
 height: 70px;
 box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 padding: 0 0 0 2.5rem;
@@ -388,6 +344,112 @@ overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
+
+.restaurants__bloc__1.appears-with-opacity {
+    -webkit-animation: opacity 1s both;
+    animation: opacity 1s both;
+        animation-delay: 0s;
+}
+
+#case-1 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    
+}
+
+#case-2 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    
+}
+
+#case-3 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+
+}
+
+#case-4 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+
+}
+
+#case-5 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+   
+}
+
+#case-6 {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+   
+}
+#case-7 {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    
+}
+
+#case-8 {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+   
+}
+
+#case-9 {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+   
+}
+
+#case-10 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+   
+}
+
+
+
+@-webkit-keyframes opacity: {
+
+
+  0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+  }
+
+  @-moz-keyframes opacity {
+  0% {
+    opacity: 0;
+    z-index: -1;
+    transform: translateY(1rem);
+}
+100% {
+    opacity: 1;
+    z-index: 0;
+    transform: translateY(0);
+}
+} 
+
+
+  @-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+    z-index: -1;
+    transform: translateY(1rem);
+}
+100% {
+    opacity: 1;
+    z-index: 0;
+    transform: translateY(0);
+}
+} 
+
 
 .header_menu {
     width: 230px;
@@ -444,8 +506,22 @@ overflow: hidden;
 }
 
 .restaurants__bloc__1:hover .circle {
+     
+ animation: rotation 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes rotation {
+
+  0% {
     transform: rotate(360deg);
 }
+100% {
+    transform: rotate(0deg);
+}
+}
+
 .circle {
     width: 1.6rem;
     height: 1.6rem;
